@@ -19,7 +19,7 @@ let package = Package(
             teamIdentifier: "TXFPK3WSCH",
             displayVersion: "1.0",
             bundleVersion: "1",
-            appIcon: .placeholder(icon: .camera),
+            appIcon: .asset("AppIcon"),
             accentColor: .presetColor(.orange),
             supportedDeviceFamilies: [
                 .pad,
